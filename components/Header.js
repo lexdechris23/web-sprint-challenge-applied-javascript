@@ -35,4 +35,4 @@ let header = (date, title, temp) => {
   return head;
 };
 
-header("March 28, 2020", "Lambda Times", "98°");
+header("March 19, 2021", "Lambda Times", "100°");

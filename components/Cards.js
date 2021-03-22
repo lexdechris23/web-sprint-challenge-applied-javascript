@@ -47,7 +47,7 @@ axios
     const img = document.createElement("img");
     const name = document.createElement("span");
     
-    //append childs
+    //append child nodes
     cardContainer.appendChild(card);
     card.appendChild(headline);
     card.appendChild(author);
@@ -55,7 +55,7 @@ axios
     card.appendChild(img);
     card.appendChild(name);
     
-    //classlists
+    //add classes
     card.classList.add("card");
     headline.classList.add("headline");
     author.classList.add("author");
